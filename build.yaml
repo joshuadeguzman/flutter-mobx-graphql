@@ -1,0 +1,9 @@
+targets:
+  $default:
+    builders:
+      artemis:
+        options:
+          schema_mapping:
+            - schema: lib/third_party/spotify_graphql_schema/spotify.schema.graphql
+              output: lib/third_party/spotify_graphql_schema/spotify_graphql_api.dart
+              queries_glob: lib/third_party/spotify_graphql_queries/**.graphql

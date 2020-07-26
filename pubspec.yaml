@@ -1,0 +1,38 @@
+name: flutter_mobx_graphql
+description: A new Flutter project.
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^0.1.3
+  cached_network_image: ^2.2.0+1
+  google_fonts: ^1.1.0
+
+  # TODO: Remove from starter project
+  mobx: ^1.2.1+1
+  flutter_mobx: ^1.1.0+1
+  provider: ^4.3.1
+  graphql: ^3.0.0
+  either_option: ^1.0.6
+  mockito: ^4.1.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  # TODO: Remove from starter project
+  mobx_codegen: ^1.1.0+1
+  build_runner: ^1.10.0
+  json_serializable: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
